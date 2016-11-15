@@ -4,8 +4,28 @@ body {
 	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
 }
-h1, h3 {
+h3 {
 	color: #4aaaa5;
+}
+header {
+	background-color: #ffffff;
+	border-bottom: 5px #dddddd;
+	font-family: Georgia, 'Times New Roman', Times, serif; 
+	margin: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.name {
+	font-size: 2em;
+	/*
+	color: white;
+	background-color: #4aaaa5;
+	width: 150px;
+	*/
+	float: left;
+}
+nav {
+	 float: right;
 }
 .container {
 	width: 650px;
